@@ -27,7 +27,7 @@ export default function Index() {
           <nav className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Icon name="PawPrint" className="text-primary" size={32} />
-              <span className="text-2xl font-heading font-bold text-foreground">Зоо Такси</span>
+              <span className="text-2xl font-heading font-bold text-foreground">Зоо Такси Абхазии</span>
             </div>
             <div className="hidden md:flex items-center gap-8">
               <a href="#services" className="text-foreground hover:text-primary transition-colors">Услуги</a>
@@ -38,7 +38,7 @@ export default function Index() {
             </div>
             <Button size="lg" className="hidden md:flex">
               <Icon name="Phone" size={18} className="mr-2" />
-              +7 (495) 123-45-67
+              +995 (555) 12-34-56
             </Button>
           </nav>
         </div>
@@ -49,10 +49,10 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="text-4xl md:text-6xl font-heading font-bold text-foreground mb-6 leading-tight">
-                Безопасная перевозка ваших питомцев
+                Перевозка животных по Абхазии и за границу
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
-                Профессиональное зоо-такси с заботой о комфорте и безопасности животных. Опытные водители, специальное оборудование, контроль качества.
+                Профессиональное зоо-такси Абхазии с международными перевозками. Оформление документов, прохождение границы, безопасность и комфорт вашего питомца.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="text-lg px-8">
@@ -66,12 +66,12 @@ export default function Index() {
               </div>
               <div className="grid grid-cols-3 gap-6 mt-12">
                 <div className="text-center">
-                  <div className="text-3xl font-heading font-bold text-primary">5+</div>
+                  <div className="text-3xl font-heading font-bold text-primary">8+</div>
                   <div className="text-sm text-muted-foreground">лет опыта</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-heading font-bold text-primary">2000+</div>
-                  <div className="text-sm text-muted-foreground">поездок</div>
+                  <div className="text-3xl font-heading font-bold text-primary">500+</div>
+                  <div className="text-sm text-muted-foreground">поездок за границу</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-heading font-bold text-primary">24/7</div>
@@ -95,40 +95,40 @@ export default function Index() {
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl font-heading font-bold text-foreground mb-4">Наши услуги</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Комплексные решения для безопасной перевозки всех видов животных
+              Перевозки по Абхазии и за границу с полным пакетом документов
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                icon: "Car",
-                title: "Перевозка в ветклинику",
-                description: "Срочная доставка питомца к ветеринару с комфортом и заботой"
+                icon: "Globe",
+                title: "Международные перевозки",
+                description: "Выезд за границу с полным пакетом документов (Россия, Грузия, Турция)"
               },
               {
-                icon: "Home",
-                title: "Переезд с питомцем",
-                description: "Помощь в перевозке животных при смене места жительства"
+                icon: "FileCheck",
+                title: "Оформление документов",
+                description: "Ветеринарные свидетельства, паспорта, разрешения для пересечения границы"
               },
               {
                 icon: "Plane",
                 title: "Трансфер в аэропорт",
-                description: "Доставка животных к месту отправления с документами"
+                description: "Доставка в аэропорты Сухума, Сочи, Батуми с сопровождением"
               },
               {
-                icon: "Heart",
-                title: "Выставки и мероприятия",
-                description: "Комфортная транспортировка на выставки и соревнования"
+                icon: "Car",
+                title: "Перевозка по Абхазии",
+                description: "Комфортная доставка между городами: Гагра, Сухум, Очамчыра"
               },
               {
-                icon: "MapPin",
-                title: "Дальние поездки",
-                description: "Междугородние перевозки с остановками и уходом"
+                icon: "Stethoscope",
+                title: "Ветеринарное сопровождение",
+                description: "Срочная доставка в ветклиники с возможностью консультации"
               },
               {
                 icon: "Shield",
                 title: "VIP обслуживание",
-                description: "Премиум-класс с дополнительным комфортом и сервисом"
+                description: "Премиум-класс с кондиционером, личным сопровождающим"
               }
             ].map((service, index) => (
               <Card key={index} className="hover:shadow-lg transition-all duration-300 animate-fade-in border-2 hover:border-primary">
@@ -156,37 +156,37 @@ export default function Index() {
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {[
               {
-                name: "Стандарт",
-                price: "от 800₽",
-                description: "Для небольших животных",
+                name: "По Абхазии",
+                price: "от 15€",
+                description: "Поездки по стране",
                 features: [
-                  "Переноска входит в стоимость",
+                  "Перевозка по Абхазии",
+                  "Комфортабельный автомобиль",
                   "Опытный водитель",
-                  "Базовая страховка",
-                  "Поездки по городу"
+                  "Базовая страховка"
                 ]
               },
               {
-                name: "Комфорт",
-                price: "от 1500₽",
-                description: "Для средних питомцев",
+                name: "За границу",
+                price: "от 50€",
+                description: "Международные перевозки",
                 features: [
-                  "Все из тарифа Стандарт",
-                  "Специальное оборудование",
-                  "Расширенная страховка",
-                  "Консультация ветеринара"
+                  "Все из тарифа По Абхазии",
+                  "Оформление документов",
+                  "Помощь на границе",
+                  "Россия, Грузия, Турция"
                 ],
                 popular: true
               },
               {
-                name: "Премиум",
-                price: "от 3000₽",
-                description: "VIP обслуживание",
+                name: "VIP перевозка",
+                price: "от 100€",
+                description: "Премиум обслуживание",
                 features: [
-                  "Все из тарифа Комфорт",
-                  "Автомобиль премиум-класса",
-                  "Сопровождение зоопсихолога",
-                  "Междугородние перевозки"
+                  "Все из тарифа За границу",
+                  "Премиум-авто с кондиционером",
+                  "Личный сопровождающий",
+                  "Консультация ветеринара"
                 ]
               }
             ].map((tariff, index) => (
@@ -239,7 +239,7 @@ export default function Index() {
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="phone">Телефон *</Label>
-                      <Input id="phone" type="tel" placeholder="+7 (999) 123-45-67" required />
+                      <Input id="phone" type="tel" placeholder="+995 (555) 123-456" required />
                     </div>
                   </div>
 
@@ -265,11 +265,11 @@ export default function Index() {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <Label htmlFor="from">Откуда *</Label>
-                      <Input id="from" placeholder="Адрес отправления" required />
+                      <Input id="from" placeholder="Гагра, Сухум, Очамчыра..." required />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="to">Куда *</Label>
-                      <Input id="to" placeholder="Адрес назначения" required />
+                      <Input id="to" placeholder="Россия, Грузия, Турция..." required />
                     </div>
                   </div>
 
@@ -288,10 +288,10 @@ export default function Index() {
                     <Label>Дополнительные услуги</Label>
                     <div className="space-y-3">
                       {[
-                        { id: "carrier", label: "Переноска (если нет своей) — 200₽" },
-                        { id: "vet-consultation", label: "Консультация ветеринара — 500₽" },
-                        { id: "waiting", label: "Ожидание и обратная дорога — 400₽/час" },
-                        { id: "documents", label: "Помощь с оформлением документов — 800₽" }
+                        { id: "international", label: "Международная перевозка — от 50€" },
+                        { id: "documents", label: "Оформление документов — 30€" },
+                        { id: "vet-consultation", label: "Консультация ветеринара — 25€" },
+                        { id: "border-assistance", label: "Сопровождение на границе — 40€" }
                       ].map(service => (
                         <div key={service.id} className="flex items-center space-x-2">
                           <Checkbox id={service.id} />
@@ -380,24 +380,24 @@ export default function Index() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                name: "Анна Смирнова",
+                name: "Наталья Георгиевна",
                 pet: "Владелец кошки",
                 rating: 5,
-                text: "Замечательный сервис! Везли кошку в ветклинику, водитель был очень аккуратен и внимателен. Мурка чувствовала себя спокойно.",
+                text: "Перевозили кошку из Гагры в Сочи. Оформили все документы, на границе помогли. Отличный сервис!",
                 image: "https://cdn.poehali.dev/projects/ee46c187-fc3d-48d5-b88d-67ffa4104fc5/files/ed5ad4e5-5a7c-4af1-aa43-1841001c75e9.jpg"
               },
               {
-                name: "Дмитрий Козлов",
+                name: "Дмитрий Васильев",
                 pet: "Владелец лабрадора",
                 rating: 5,
-                text: "Переезжали в другой город с крупной собакой. Всё организовали идеально: остановки, вода, комфорт. Рекомендую!",
+                text: "Везли собаку в Турцию. Всё прошло гладко, водитель очень опытный, знает все нюансы. Рекомендую!",
                 image: "https://cdn.poehali.dev/projects/ee46c187-fc3d-48d5-b88d-67ffa4104fc5/files/2c040042-5e95-4867-a6fa-234a332444fc.jpg"
               },
               {
-                name: "Елена Петрова",
+                name: "Марина Аршба",
                 pet: "Владелец йорка",
                 rating: 5,
-                text: "Пользуемся услугами уже 2 года для поездок на выставки. Всегда вовремя, всегда чисто и аккуратно. Спасибо!",
+                text: "Перевозили маленькую собачку из Сухума в Батуми. Очень аккуратно, всегда на связи. Спасибо!",
                 image: "https://cdn.poehali.dev/projects/ee46c187-fc3d-48d5-b88d-67ffa4104fc5/files/b485e0ed-6a2c-4b1c-b218-138528417a36.jpg"
               }
             ].map((review, index) => (
@@ -443,7 +443,7 @@ export default function Index() {
                   <CardTitle className="font-heading">Телефон</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg font-semibold text-primary">+7 (495) 123-45-67</p>
+                  <p className="text-lg font-semibold text-primary">+995 (555) 12-34-56</p>
                   <p className="text-sm text-muted-foreground mt-2">Круглосуточно</p>
                 </CardContent>
               </Card>
@@ -456,7 +456,7 @@ export default function Index() {
                   <CardTitle className="font-heading">Email</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg font-semibold text-primary">info@zootaxi.ru</p>
+                  <p className="text-lg font-semibold text-primary">info@zootaxi.ge</p>
                   <p className="text-sm text-muted-foreground mt-2">Ответим в течение часа</p>
                 </CardContent>
               </Card>
@@ -469,8 +469,8 @@ export default function Index() {
                   <CardTitle className="font-heading">Адрес</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg font-semibold text-primary">Москва</p>
-                  <p className="text-sm text-muted-foreground mt-2">Работаем по всему городу</p>
+                  <p className="text-lg font-semibold text-primary">Абхазия</p>
+                  <p className="text-sm text-muted-foreground mt-2">Гагра, Сухум, Очамчыра</p>
                 </CardContent>
               </Card>
             </div>
@@ -484,17 +484,17 @@ export default function Index() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Icon name="PawPrint" className="text-primary" size={32} />
-                <span className="text-2xl font-heading font-bold">Зоо Такси</span>
+                <span className="text-2xl font-heading font-bold">Зоо Такси Абхазии</span>
               </div>
               <p className="text-white/70">
-                Безопасная перевозка животных с 2019 года
+                Перевозка животных по Абхазии и за границу с 2016 года
               </p>
             </div>
             <div>
               <h4 className="font-heading font-bold mb-4">Услуги</h4>
               <ul className="space-y-2 text-white/70">
-                <li>Перевозка в ветклинику</li>
-                <li>Переезд с питомцем</li>
+                <li>Международные перевозки</li>
+                <li>Оформление документов</li>
                 <li>Трансфер в аэропорт</li>
                 <li>VIP обслуживание</li>
               </ul>
@@ -511,14 +511,14 @@ export default function Index() {
             <div>
               <h4 className="font-heading font-bold mb-4">Контакты</h4>
               <ul className="space-y-2 text-white/70">
-                <li>+7 (495) 123-45-67</li>
-                <li>info@zootaxi.ru</li>
-                <li>Москва, работаем 24/7</li>
+                <li>+995 (555) 12-34-56</li>
+                <li>info@zootaxi.ge</li>
+                <li>Абхазия, работаем 24/7</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-white/10 mt-8 pt-8 text-center text-white/50">
-            <p>&copy; 2024 Зоо Такси. Все права защищены.</p>
+            <p>&copy; 2024 Зоо Такси Абхазии. Все права защищены.</p>
           </div>
         </div>
       </footer>
